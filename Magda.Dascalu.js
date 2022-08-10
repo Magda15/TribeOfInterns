@@ -74,3 +74,21 @@ function myFunction(value, index, array) {
   sum += value;
 }
 console.log(sum);
+
+//1.6 Promise. Callback
+//we use callbacks and promises in JavaScript to implement asynchronous code.
+//Callbacks are functions that are passed inside the arguments of other functions.
+function job1() {
+    console.log("I am task 1");
+  }
+  function job3() {
+    console.log("I am task 3");
+  }
+  function job2() {
+    console.log("I am task 2");
+  }
+  
+  job1();
+  job2();
+  job3();
+//A promise is an object and is something that is done/completed in the future. 
