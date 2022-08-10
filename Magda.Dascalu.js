@@ -92,3 +92,10 @@ function job1() {
   job2();
   job3();
 //A promise is an object and is something that is done/completed in the future. 
+
+//1.7 Async
+//An async function is a function declared with the async keyword, 
+//and the await keyword is permitted within it
+async function asyncReturn() {
+    return p;
+  }
