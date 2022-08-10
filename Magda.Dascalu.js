@@ -99,3 +99,7 @@ function job1() {
 async function asyncReturn() {
     return p;
   }
+
+  //1.8 Closures
+  //A closure is the combination of a function bundled together 
+  //(enclosed) with references to its surrounding state 
